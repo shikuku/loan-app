@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    rel="stylesheet">   
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <title>loan App</title>
+</head>
+<body>
+    <nav class="container">
+        <a href="#" class="myc-heading"><span class="bg-warning">MYC</span><span class="bg-success"> INSTANT LOAN</span></a>
+
+      
+        <div class="nav-content">
+            <div class="top-content">
+          
+            <div>
+              <a class="nav-link top-bar" href="#">Home <span class="sr-only">(current)</span></a>
+            </div>
+            
+            
+            <div>
+              <a href="#" class="top-bar">Help $ Support</a>
+            </div>
+          
+          </div>
+          <div class="btn-login">
+            <input type="button" value="sign up">
+            <button class="btn btn-outline-success">log in</button>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="container d-flex flex-row main gap-3" >
+          <div class="col-6 loan-description container">
+            <p>Mobile Loans in Kenya Directly From Your Smartphone
+              Loans up to KSh 10,000,000. 
+              Fees as low as 6%.</p>
+            <h3>Apply for a Loan</h3>
+            <p>Sign up directly in the MYC app, and fill out your
+               personal 
+            information to apply 
+            for your first loan</p> 
+          </div>
+          <div class="loan  col-6">
+            <h2 class="bg-danger">Apply your Loan Here</h2>
+              <div>
+                  <p>Loan Amount:<input type="number" id="loan-amount" class="data" min="1" max="10000000" step="1"></p>
+              </div>
+              <div>
+                <p>Interest rate:<input type="number" id="rate" value="5" 
+                    step="0.1" disabled></p>
+            </div>
+            <div>
+                <p>Loan Duration:<select id="loan-duration" class="data"></select></p>
+            </div>
+            <div>
+                <p id="amount"></p>
+               <p id="monthly-payment"></p>
+</div>
+          </div>
+      </div>
+      <div class="carousel-content container">
+      <div>
+        <p class="paragraph">join the millions of happy Tala Kenya users! Download the app directly from the Google Play Store.</p>
+      </div>
+<div>
+  <p class="paragraph">Rest assured that your data is private & secure. Our MYC team works around the clock so you don’t have to worry.</p>
+</div>
+
+      <!-- <div id="carouselExampleControls" class="carousel slide" class="container carousel-video" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/n_YJOiGWRdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+          <div class="carousel-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_D-ZGcpouxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+          <div class="carousel-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZnaqvcaSwAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div> -->
+
+
+
+
+
+
+<div class="d-flex align-center icons container justify-between text-center bg-success">
+  <div class="row">
+<div class="col-3">
+  <div class="img-fluid">
+    <img src="images/icon1.png" width="25%">
+  </div>
+  <div>
+    <h4>Interest and fee
+      transparency</h4>
+  </div>
+<div>
+  <p>Interest rate transparency, borrowing costs and There is no hidden cost</p>
+</div>
+</div>
+
+<div class="col-3">
+  <div class="img-fluid">
+    <img src="images/icon2.png" width="25%">
+  </div>
+  <div>
+    <h4>High quota and
+      low interest fee</h4>
+  </div>
+<div>
+  <p>Loan amount：KSh800 to KSh10000000.
+    Loan period：1-72 months.
+    Borrow and repay in a flexible way</p>
+</div>
+</div>
+
+<div class="col-3">
+  <div class="img-fluid">
+    <img src="images/icon3.png" width="25%">
+  </div>
+  <div>
+    <h4>Easy to apply</h4>
+  </div>
+<div>
+  <p>No credit record is required. Residents aged 18-60 with a stable 
+    source of income can apply online anytime and anywhere. The operation is simple,
+     and fast. Apply & receive money in your M-PESA account in minutes.</p>
+</div>
+</div>
+
+<div class="col-3">
+  <div class="img-fluid">
+    <img src="images/icon4.png" width="25%">
+  </div>
+  <div>
+    <h4>Safe guard</h4>
+  </div>
+<div>
+  <p>Super technology, full encryption, 
+    Protect your personal information security.</p>
+</div>
+</div>
+</div>
+</div>
+
+    <script src="js/script.js"> </script>
+</body>
+</html>

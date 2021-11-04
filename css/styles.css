@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.top-bar{
+  padding:1em;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 2em;
+    /* height: 100vh; */
+    background-color: cornsilk;
+    /* width: 50%; */
+    margin: 0 auto;
+    width: 100%;
+    padding: 2em 0;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+.input{
+    text-align: center;
+    padding: 1em 8em;
+    display: block;
+    width: 100%;
+}
+
+
+.btn{
+    cursor: pointer;
+    background-color:#000000;
+    color: white;
+    padding: 1em 2em;
+}
+.input-names{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7em;
+}
+
+.checkbox{
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+/* .paragraph{
+    width: 70%;
+} */

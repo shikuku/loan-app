@@ -27,3 +27,17 @@ const monthlyPayment=totalPayable/parseInt(loanDuration.value)
 
     })
 })
+const nav=document.getElementById("nav")
+
+window.addEventListener("scroll",()=>{
+
+    if (window.scrollY >= 50) {
+       
+        nav.classList.add('fixed-nav');
+        
+      } else {
+        
+        nav.classList.remove('fixed-nav');
+        
+      }
+    })

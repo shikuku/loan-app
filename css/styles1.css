@@ -1,0 +1,41 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+        background-image:url("../images/bg0.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+    
+}
+
+.login{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+     text-align: center;
+     gap: 2em;
+    /* padding: 0em 1em; */
+    margin-top: 5em;
+    width: 25%;
+}
+
+.signup{
+    padding:1em 3em ;
+    /* gap:1em; */
+
+}
+.btn-primary{
+cursor: pointer;
+width: 30%;
+}
+.btn-Home{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+text-align: center;
+/* padding:4em; */
+}

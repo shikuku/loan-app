@@ -22,6 +22,10 @@
     margin-top: 5em;
     width: 25%;
 }
+/* .btn{
+    display: block;
+    margin: 0 auto;
+} */
 
 .signup{
     padding:1em 3em ;
@@ -32,10 +36,13 @@
 cursor: pointer;
 width: 30%;
 }
-.btn-Home{
+.btn-home{
+    /* display: block;
+    margin: 0 auto; */
     display: flex;
-    justify-content:center;
     align-items: center;
+    justify-content: center;
 text-align: center;
 /* padding:4em; */
+/* padding-bottom: 2em; */
 }
